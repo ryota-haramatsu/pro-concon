@@ -2,7 +2,12 @@
 <?php
 // 1:  cat test.txt | php index.php
 
-// -----整数1つ-----
+// キャスト、trimなど必要
+
+// -----横一列の
+// fscanf(STDIN,"%d %d",$x,$y); %d：数字 %s：文字列
+
+// -----整数1つ----- 
 // $value = (int)fgets(STDIN);
 
 // -----文字列1つ-----
@@ -56,3 +61,4 @@
 
 // mb_substr_count — 部分文字列の出現回数を数える
 
+// array_unique - 配列から重複した値を消す
